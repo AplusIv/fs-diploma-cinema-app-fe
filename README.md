@@ -99,5 +99,8 @@ php artisan serve
 *Полезно*:
 Github pages SPA helper: <https://github.com/rafgraph/spa-github-pages.git>
 
+Project status: [![Build status](https://ci.appveyor.com/api/projects/status/7c8wk508qtjlbfh6?svg=true)](https://ci.appveyor.com/project/AplusIv/fs-diploma-cinema-app-fe)
+
+Main branch status: [![Build status](https://ci.appveyor.com/api/projects/status/7c8wk508qtjlbfh6/branch/main?svg=true)](https://ci.appveyor.com/project/AplusIv/fs-diploma-cinema-app-fe/branch/main)
 
 
