@@ -36,16 +36,16 @@
 Бронирование и покупка билета на конкретную дату.    
 
 Проект опубликован на *Github pages*, настройка всех относительных путей ведётся 
-от базового URL (**"/fs-diploma-cinema-app"**).   
+от базового URL (**"/fs-diploma-cinema-app-fe"**).   
 
 ### Используемые пути:
-1) URL — "/fs-diploma-cinema-app/" соответствует странице администратора;
-2) URL — "/fs-diploma-cinema-app/login" соответствует странице авторизации;
-3) URL — "/fs-diploma-cinema-app/client/schedule/:date?" соответствует соответствует странице с расписанием сеансов на конкретные даты;
-4) URL — "/fs-diploma-cinema-app/client/buying" соответствует зрительному залу;
-5) URL — "/fs-diploma-cinema-app/client/payment" соответствует странице с подтвреждением бронирования выбранных билетов;
-6) URL — "/fs-diploma-cinema-app/client/ticket" соответствует странице с оформленным заказом;
-7) URL — "/fs-diploma-cinema-app/*" соответствует странице с ошибкой.
+1) URL — "/fs-diploma-cinema-app-fe/" соответствует странице администратора;
+2) URL — "/fs-diploma-cinema-app-fe/login" соответствует странице авторизации;
+3) URL — "/fs-diploma-cinema-app-fe/client/schedule/:date?" соответствует соответствует странице с расписанием сеансов на конкретные даты;
+4) URL — "/fs-diploma-cinema-app-fe/client/buying" соответствует зрительному залу;
+5) URL — "/fs-diploma-cinema-app-fe/client/payment" соответствует странице с подтвреждением бронирования выбранных билетов;
+6) URL — "/fs-diploma-cinema-app-fe/client/ticket" соответствует странице с оформленным заказом;
+7) URL — "/fs-diploma-cinema-app-fe/*" соответствует странице с ошибкой.
 
 
 ## Бэкенд
@@ -92,8 +92,8 @@ php artisan serve
 ```
 
 ### Ссылки на Github pages:
-- админская страница <https://aplusiv.github.io/fs-diploma-cinema-app/> 
-- клиентская страница <https://aplusiv.github.io/fs-diploma-cinema-app/client/schedule/2025-06-14>.   
+- админская страница <https://aplusiv.github.io/fs-diploma-cinema-app-fe/> 
+- клиентская страница <https://aplusiv.github.io/fs-diploma-cinema-app-fe/client/schedule/2025-06-14>.   
 Обратите внимание, что последняя часть пути представляет собой расписание на выбранную дату в формате ***YYYY-MM-DD***. При просмотре сеансов нужно учитывать данный формат. 
 
 *Полезно*:
